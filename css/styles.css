@@ -6,11 +6,32 @@ header {
   background-color: #2d3945;
   color: white;
   text-align: center;
-  height: 50px;
+  height: 60px;
 
 }
 
 header p:only-child {
   padding: 17px;
+  padding-top: 20px;
   margin: 0;
+}
+
+h1 {
+  color: #2d3945;
+}
+
+.center{
+    text-align: center;
+}
+
+form{
+  display:block;
+  width:90%;
+  margin:0 auto;
+}
+
+input{
+  width: 100%;
+  padding:8px;
+  margin: 20px;
 }
