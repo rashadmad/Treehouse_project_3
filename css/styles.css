@@ -3,14 +3,14 @@
 }
 
 header {
-  background-color: #595959;
+  background-color: #2d3945;
   color: white;
   text-align: center;
   height: 50px;
-  margin: 0px;
+
 }
 
 header p:only-child {
-  
-  background-color: orange;
+  padding: 17px;
+  margin: 0;
 }
