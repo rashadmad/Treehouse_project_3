@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>treehouse project 3</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
 
   <body>
@@ -14,20 +14,123 @@
       <p>THE CODE REVIEW</p>
     </header>
       <form action="index.html" method="post">
-          <h1 class="center">Signup for our newsletter</h1>
-          <p class="center">get the latest news on how your code is doing right in your inbox</p>
-          <hr />
-          <input type="text" id="name" name="user_name">
-          <input type="text" id="email" name="user_email">
-          <input type="tel" id="phoneNumber" name="user_phoneNumber" min="7" max="8">
-          <input type="text" id="address" name="user_address">
-          <input type="text" id="city" name="user_city">
-          <input type="text" id="state" name="user_state">
-          <input type="number" id="zip" name="user_zip">
-      </form>
+          <br  />
+        <h1 class="center">Signup for our newsletter</h1>
+          <p class="center lead">Get the latest news on how your code is doing right in your inbox</p>
+          <br  />
+          <hr class="solid" />
+          <hr class="thin" />
+          <br  />
+          <br  />
+      <fieldset>
+        <legend>Contact Information</legend>
+        <br  />
+          <label for="name">Full Name</label>
+            <input type="text" id="name" name="user_name" placeholder="Required">
+
+          <label for="name">Email</label>
+            <input type="text" id="email" name="user_email" placeholder="Required">
+
+          <label for="name">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="user_phoneNumber" min="7" max="8">
+
+          <label for="name">Address</label>
+            <input type="text" id="address" name="user_address">
+
+          <label for="name">City</label>
+            <input type="text" id="city" name="user_city">
+
+          <label for="name">State</label>
+            <select id="state" name="user_state" placeholder="Choose state">
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+              <option value="Arizona">Arizona</option>
+              <option value="Arkansas">Arkansas</option>
+              <option value="California">California</option>
+              <option value="Colorado">Colorado</option>
+              <option value="Connecticut">Connecticut</option>
+              <option value="Delaware">Delaware</option>
+              <option value="Florida">Florida</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Hawaii">Hawaii</option>
+              <option value="Idaho">Idaho</option>
+              <option value="Illinois">Illinois</option>
+              <option value="Indiana">Indiana</option>
+              <option value="Iowa">Iowa</option>
+              <option value="Kansas">Kansas</option>
+              <option value="Louisiana">Louisiana</option>
+              <option value="Maine">Maine</option>
+              <option value="Maryland">Maryland</option>
+              <option value="Massachusetts">Massachusetts</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Minnesota">Minnesota</option>
+              <option value="Mississippi">Mississippi</option>
+              <option value="Missouri">Missouri</option>
+              <option value="Montana">Montana</option>
+              <option value="Nebraska">Nebraska</option>
+              <option value="Nevada">Nevada</option>
+              <option value="New Hampshire">New Hampshire</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value="New Mexico">New Mexico</option>
+              <option value="New York">New York</option>
+              <option value="North Carolina">North Carolina</option>
+              <option value="North Dakota">North Dakota</option>
+              <option value="Ohio">Ohio</option>
+              <option value="Oklahoma">Oklahoma</option>
+              <option value="Oregon">Oregon</option>
+              <option value="Pennsylvania">Pennsylvania</option>
+              <option value="Rhode Island">Rhode Island</option>
+              <option value="South Carolina">South Carolina</option>
+              <option value="South Dakota">South Dakota</option>
+              <option value="Tennessee">Tennessee</option>
+              <option value="Texas">Texas</option>
+              <option value="Utah">Utah</option>
+              <option value="Vermont">Vermont</option>
+              <option value="Virginia">Virginia</option>
+              <option value="Washington">Washington</option>
+              <option value="West Virginia">West Virginia</option>
+              <option value="Wisconsin">Wisconsin</option>
+              <option value="Wyoming">Wyoming</option>
+              <option value="Pennsylvania">Pennsylvania</option>
+            </select>
+          <label for="name">Zip</label>
+            <input type="number" id="zip" name="user_zip">
+
+      </fieldset>
+            <br  />
+            <br  />
+            <hr class="thin" />
+            <br  />
+            <br  />
+      <fieldset>
+        <legend>Newsletter</legend>
+          <p>Select the newsletters you would like to recieve</p>
+              <label for="html_news">HTML News</label>
+                <input type="checkbox" id="html_news" name="html_news">
+
+              <label for="css_news">CSS News</label>
+                <input type="checkbox" id="css_news" name="css_news">
+
+              <label for="javascript_news">javascript News</label>
+                <input type="checkbox" id="javascript_news" name="javascript_news">
+
+      </fieldset>
+      <fieldset>
+          <p>Newsletter Format</p>
+              <label for="html">HTML</label>
+                <input type="radio" id="html" name="format">
+              <label for="html">plain text</label>
+                <input type="radio" id="plain" name="format">
+
+        <p>Other topics you'd like to hear about</p>
+        <textarea id="comment" name="comment"></textarea>
+        <button>Sign Up</button>
+      </fieldset>
+    </form>
   </body>
 
   <footer>
+    <p class="center">Copyright The Code Review</p>
   </footer>
 
 </html>
