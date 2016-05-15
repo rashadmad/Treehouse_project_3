@@ -39,8 +39,13 @@ h1 {
   color: #2d3945;
 }
 
+
 h2 {
   font-size: 1em;
+}
+
+label{
+  color: #595959;
 }
 
 legend {
@@ -87,13 +92,22 @@ input:focus {
   outline-width: 2px;
 }
 
-input,textarea,select {
+input[type=text],
+input[type=number],
+input[type=tel],
+textarea,
+select {
   background-color: lightgrey;
   border: 0;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   padding: 10px;
+}
+
+input[type=checkbox],input[type=radio] {
+
+margin-bottom: 20px;
 }
 
 textarea{
@@ -103,10 +117,12 @@ textarea{
 
 em {
   font-style: italic;
+  font-size: .5em;
 }
 
 footer{
   margin:0 auto;
   background-color: white;
-  height: 60px;
+  height: 150px;
+  font-style: italic;
 }
