@@ -131,15 +131,16 @@ footer{
   font-style: italic;
 }
 
-@media (max-width: 760px) {
-
-  table, thead, tbody, th, td, tr {
-		display: block;
-	}
-
+td {
+  display: block;
 }
 
 @media (min-width: 760px) {
+
+  td {
+    display:table-cell;
+  }
+
 
   input[type=text],
   input[type=number],
