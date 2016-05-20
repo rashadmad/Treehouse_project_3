@@ -13,9 +13,9 @@
     <header>
       <p>THE CODE REVIEW</p>
     </header>
+    <br>
+  <h1 class="center">Signup for our newsletter</h1>
       <form action="index.html" method="post">
-          <br>
-        <h1 class="center">Signup for our newsletter</h1>
           <p class="center lead">Get the latest news on how your code is doing right in your inbox</p>
           <br>
           <hr class="solid" />
@@ -30,23 +30,23 @@
             <td><input type="text" id="name" name="user_name" placeholder="Required"></td>
           </tr>
           <tr>
-            <td><label for="name">Email</label></td>
+            <td><label for="email">Email</label></td>
             <td><input type="text" id="email" name="user_email" placeholder="Required"></td>
           </tr>
           <tr>
-            <td><label for="name">Phone Number</label></td>
+            <td><label for="phoneNumber">Phone Number</label></td>
             <td><input type="tel" id="phoneNumber" name="user_phoneNumber"></td>
           </tr>
           <tr>
-            <td><label for="name">Street Address</label></td>
+            <td><label for="address">Street Address</label></td>
             <td><input type="text" id="address" name="user_address"></td>
           </tr>
           <tr>
-            <td><label for="name">City</label></td>
+            <td><label for="city">City</label></td>
             <td><input type="text" id="city" name="user_city"></td>
           </tr>
           <tr>
-            <td><label for="name">State</label></td>
+            <td><label for="state">State</label></td>
             <td><select id="state" name="user_state">
             <optgroup label="A">
               <option value="Alabama">Alabama</option>
@@ -143,7 +143,7 @@
           </tr>
         <tr>
           <td><label for="zip">Zip Code</label></td>
-          <td><input type="number" id="zip" name="user_zip"></td>
+          <td><input type="text" id="zip" name="user_zip"></td>
         </tr>
         </table>
       </fieldset>
@@ -174,7 +174,10 @@
                 <br>
                 <input type="radio" id="plain" name="format">
                 <label for="html">plain text</label>
-        <p>Other topics you'd like to hear about</p>
+        <br>
+        <br>
+        <label for="comment">Other topics you'd like to hear about</label>
+        <br>
         <textarea id="comment" name="comment"></textarea>
         <button type="submit">Sign Up</button>
       </fieldset>

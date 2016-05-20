@@ -92,8 +92,7 @@ form{
 }
 
 input:focus {
-  outline-color: #4ebbb5;
-  outline-width: 2px;
+  background-color: #f2f2f2 !important;
 }
 
 input[type=text],
